@@ -5,7 +5,8 @@ function Navber() {
   return (
     <div className='text-center'>
       <button><Link to='/login'>login</Link></button>
-
+      <br />
+      <button><Link to='/signup'>signup</Link></button>
     </div>
   )
 }
